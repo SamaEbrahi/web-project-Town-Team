@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+}
+/* start navbar */
+#navbar{
+    /* position: fixed; */
+}
+.nav{
+    /* position: fixed; */
+    margin: 5px 5px 20px 70px;
+   left: 0%;
+   right: 0%;
+   display: flex;
+}
+.ul ul li{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 15px;
+}
+.ul a:hover{
+    text-decoration: none;
+    color: black;
+}
+.ul a{
+    text-decoration:none ;
+    color: black;
+    
+}
+.nav select{
+    margin-left: 55px;
+    margin-bottom: 100px;
+}
+.nav i{
+    margin-left:15px;
+} 
+.logo{
+    margin-bottom: 30px;
+
+}
+.flag{
+    margin-left:50px;
+    margin-top: 7px;
+    border-radius: 50%; 
+}
+.icons a{
+    text-decoration: none;
+    color: black;
+}
+marquee h1{
+    font-size: 60px;
+    margin-left: 50%;
+
+}
+/* end navbar */
+.tt{
+    margin-left: 50%;
+    margin-top: 150px;
+   
+}
+/* start footer */
+.footer{
+    background-color: black;
+display: flex;
+margin-top: 213px;
+}
+.footer h3{
+    margin-top: 40px;
+    margin-left: 50px;
+    color: white;
+}
+.footer input{
+    padding: 0 50px;
+    margin: 50px 0 0 50px;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer i{
+    color: white;
+    margin: 50px 0 0 50px;
+    font-size: 30px;
+}
+.footer i:hover{
+    color: blue;
+}
+.footer i:active{
+    color: red;
+}

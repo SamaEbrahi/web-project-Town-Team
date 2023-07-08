@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/indix.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="shortcut icon" href="../image/logo.jpg">
+    <title>CRREAT AN ACOUNT</title>
+</head>
+
+<body>
+    <!-- start navbar -->
+    <section id="nanvbar">
+        <div class="nav">
+            <img class="logo" src="../image/logo.jpg" width="150px" height="50px">
+            <div class="ul">
+                <ul>
+                    <a href="#">
+                        <li>LIMITED OFFER</li>
+                    </a>
+                    <a href="#">
+                        <li>MEGA SALE</li>
+                    </a>
+                    <a href="#">
+                        <li>NEW ARRIVAL</li>
+                    </a>
+                    <a href="#">
+                        <li>ALL COLLECTION</li>
+                    </a>
+                </ul>
+            </div>
+            <img class="flag" src="../image/flag7.png" width="20px" height="20px">
+            <select>
+                <option>EN</option>
+                <option>AR</option>
+            </select>
+            <div class="icons">
+                <a href="#"> <i class="fas fa-search"></i></a>
+                <a href="#"><i class="fas fa-shopping-bag"></i></a>
+                <a href="#"><i class="fas fa-user-clock"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- start head1 -->
+    <h1 style="text-align: center; margin: 50px 10px 10px 0px;">ALREADY REGISTERED?</h1>
+    <section id="head1">
+        <div class="newc">
+            <h1>NEW CUSTOMER</h1>
+            <h6>
+                By creating an account with our store, you will be able to move through the checkout process faster,
+                store multiple shipping addresses, view and track your orders in your account and more</h6>
+            <button>
+                <a href="../html/indix2.html">CRREAT ACOUNT</a>
+            </button>
+       
+            </div>
+        <!-- start form -->
+        <div class="div4">
+            <form name="myform" onsubmit="return test()" action="../html/Home.html">
+                <h1 class="h1"> Log in</h1> <br>
+                <label for="e" name="email">E-MAIL</label> <br><br>
+                <input id="e" name="emailin" class="email" type="email" placeholder="Enter E-mail " required>
+                <br>
+                <label id="pss"  name="pass">password</label> <br><br>
+                <input for="pas" name="passin" class="pass" type="password" placeholder=" Enter Pasword" required> <br>
+                <button class="log"><a href="#">LOGIN</a></button> <br>
+                <br>
+                <button class="sing"><a href="https://www.facebook.com/" target="blank">Sing with Facebook</a></button>
+                <br>
+                <button class="singg"><a href="https://www.facebook.com/" target="blank">Sing with google</a></button>
+                <br>
+                <button class="singt"><a href="https://www.facebook.com/" target="blank">Sing with Twitter</a></button>
+            </form>
+        </div>
+    </section>
+     <!-- start footer -->
+     <footer>
+        <div class="footer">
+            <h3>BE IN TOUCH WITH US:</h3>
+            <form>
+                <input type="email" placeholder="inf@twon team">
+            </form>
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox"><i class="fas fa-envelope-open"></i></a>
+        </div>
+    </footer>
+    <script src="../jv/jquery-3.6.0.min.js"></script>
+    <script src="../jv/popper.min.js"></script>
+    <script>
+        function test(){
+            var parr1=["nada" ,"youmna","menna"];
+            var parr=["01270472620","01022884782","01277659354"];
+           var email=document.forms["myform"] ["emailin"].value;
+           var pass=document.forms["myform"] ["passin"].value;
+           for(var i=0; i<4; i++)
+           {
+               if((email =parr1[i])||(pass=parr1[i]))
+               return true;
+               else if(email ==" " || pass=="")
+               {
+                   alert("Erorr");
+                   return false;
+               }
+           }
+            return false;
+        }
+    </script>
+</body>
+
+</html>

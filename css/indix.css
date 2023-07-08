@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+/* start navbar */
+#navbar{
+    /* position: fixed; */
+}
+.nav{
+    /* position: fixed; */
+    margin: 5px 5px 20px 70px;
+   left: 0%;
+   right: 0%;
+   display: flex;
+}
+.ul ul li{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 15px;
+}
+.ul a:hover{
+    text-decoration: none;
+    color: black;
+}
+.ul a{
+    text-decoration:none ;
+    color: black;
+    
+}
+.nav select{
+    margin-left: 55px;
+    margin-bottom: 100px;
+}
+.nav i{
+    margin-left:15px;
+} 
+.logo{
+    margin-bottom: 30px;
+}
+.flag{
+    margin-left:50px;
+    margin-top: 7px;
+    border-radius: 50%; 
+}
+.icons a{
+    text-decoration: none;
+    color: black;
+}
+/* end navbar */
+/* start head2 */
+#head1{
+    display: flex;
+    justify-content: space-around;
+}
+.newc h1{
+    margin: 100px 10px 0px 50px;
+}
+.newc h6{
+    margin: 40px 10px 0px 50px;
+}
+.newc{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+.newc button{
+        margin: 12px;
+        padding: 8px 15px;
+        /* background-color: #ab1f65; */
+        border: 1px solid black;
+        color: white;
+        background-color: black;
+ }
+ .newc a{
+     text-decoration: none;
+     color: white;
+ }
+ .newc button:hover{
+        background-color:white;
+        color: black;
+    }
+.newc a:hover{
+        color: black;
+}
+.h1{
+    color: rgb(118, 118, 118);
+    margin: 20px 10px 2px 60px;
+   padding: 30px;
+}
+input{
+    border: 1px solid black;
+}
+.div4{
+    /* height: 320px; */
+    padding: 10px;
+    border: 1px solid black;
+    margin: 40px 5px 10px 0px;
+   
+
+}
+.div4 a{
+    text-decoration: none; 
+    color: black;
+}
+input{
+    padding: 8px 95px;
+}
+.email{
+    margin: 12px;
+}
+.pass{
+    margin: 12px;
+}
+.log{
+    margin: 12px;
+    padding: 8px 15px;
+    /* background-color: #ab1f65; */
+    border: 1px solid black;
+    color: black;
+}
+.log:hover{
+    background-color: black;
+    color: white;
+}
+.log a:hover{
+    color: white;
+}
+.sing{
+    margin: 12px;
+    padding: 8px 113px;
+    background-color: rgb(67, 67, 204);
+    border: 0px;
+}
+.sing a:hover{
+    color: white;
+}
+button:hover{
+    background-color: rgb(238, 238, 238);
+
+}
+.singg{
+    margin: 12px;
+    padding: 8px 122px;
+    background-color: rgb(207, 51, 51);
+    border: 0px;
+}
+.singt{
+    margin: 12px;
+    padding: 8px 123px;
+    background-color: rgb(88, 90, 207);
+    border: 0px;
+}
+
+/* start footer */
+.footer{
+    background-color: black;
+display: flex;
+}
+.footer h3{
+    margin-top: 40px;
+    margin-left: 50px;
+    color: white;
+}
+.footer input{
+    padding: 0 50px;
+    margin: 50px 0 0 50px;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer i{
+    color: white;
+    margin: 50px 0 0 50px;
+    font-size: 30px;
+}
+.footer i:hover{
+    color: blue;
+}
+.footer i:active{
+    color: red;
+}
+
